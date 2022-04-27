@@ -16,51 +16,51 @@
         "будут продлены за"
       ],
       "confirmButton": "Продлить",
-      "year_0": "{{count}} years",
-      "year_1": "{{count}} years",
-      "year_2": "{{count}} years"
+      "year_0": "{{count}} лет",
+      "year_1": "{{count}} лет",
+      "year_2": "{{count}} лет"
     },
     "sort": {
       "alphabetical": "Алфавитный",
       "expiry": "Срок действия"
     },
-    "transactionBanner": "You are here because of a transaction we sent you or a referral from another site. You have names below that need to be renewed soon!"
+    "transactionBanner": "Вы оказались на этой странице, потому что мы отправили Вам транзакцию, либо по рекомендации с другого сайта. Ниже Вы можете увидеть имена, которые следует продлить"
   },
   "blockies": {
-    "noAddressFound": "No address found"
+    "noAddressFound": "Адрес не найден"
   },
   "c": {
     "Address": "Адрес",
     "Content": "Содержимое",
     "Controller": "Контроллер",
     "Expiration Date": "Срок действия",
-    "Resolver": "Резолвер",
-    "about": "О",
-    "addresses": "Addresses",
+    "Resolver": "DNS-клиент",
+    "about": "О нас",
+    "addresses": "Адреса",
     "cancel": "Отменить",
-    "cannotclaimDns": "You cannot claim names under .{{ name }} on this site.",
+    "cannotclaimDns": "К сожалению, вы не можете занять имена .{{ name }} на этом сайте.",
     "claim": "Заявить",
-    "connect": "Connect",
-    "disconnect": "Disconnect",
+    "connect": "Подключиться",
+    "disconnect": "Отключиться",
     "edit": "Редактировать",
     "email": "Электронный почта",
     "expires": "Истекает",
     "faq": "FAQ",
     "favourites": "Избранное",
     "learnmore": "Узнать больше",
-    "learnmoreenglishonly": "Learn More",
-    "migrate": "Мигрировать",
+    "learnmoreenglishonly": "Узнать больше",
+    "migrate": "Перенести",
     "mynames": "Мои Имена",
     "network": "сеть",
     "otheraddresses": "Другие Адреса",
     "parent": "родитель",
-    "readonly": "Read only",
+    "readonly": "Только для чтения",
     "refresh": "Обновить",
     "register": "Зарегистрировать",
     "registrant": "Получатель",
     "registrationDate": "Дата Регистрации",
     "renew": "Продлить",
-    "return": "Return",
+    "return": "Вернуться",
     "save": "Сохранить",
     "search": "Поиск",
     "set": "Установить",
@@ -68,13 +68,13 @@
     "textrecord": "Текстовая Запись",
     "transfer": "Перенести",
     "warning": "Предупреждение",
-    "year_0": "years",
-    "year_1": "years",
-    "year_2": "years"
+    "year_0": "лет",
+    "year_1": "лет",
+    "year_2": "лет"
   },
   "certificate": {
-    "button": "Request SSL certificate",
-    "warning": "SSL certificate for {{ name }}.link is not created yet"
+    "button": "Запросить сертификат SSL",
+    "warning": "Ссылка для сертификата {{ name }}.SSL ещё не создана"
   },
   "childDomainItem": {
     "notmigrated": "не перенесён"
@@ -90,29 +90,29 @@
     "steps": {
       "addtext": {
         "text": "Нажмите 'Узнать больше' чтобы прочесть о данном процессе.",
-        "title": "Добавьте текстовую запись у регистратора вашего домена и затем нажминте 'Обновить'. Текстовая запись должна содержать ваш Ethereum адрес в следующем виде:"
+        "title": "Добавьте текстовую запись у регистратора вашего домена и нажмите 'Обновить'. Текстовая запись должна содержать ваш Ethereum адрес в следующем виде:"
       },
       "enable": {
         "text": "Нажмите 'узнать больше' чтоб прочесть о процедуре.",
-        "title": "Посетите регистратора вашего домена чтобы включить DNSSEC. Когда это будет сделано, нажмите 'обновить', чтобы увидеть можно ли перейти к следующему шагу."
+        "title": "Посетите регистратора вашего домена, чтобы включить DNSSEC. После этого нажмите 'обновить', чтобы узнать, возможно ли перейти к следующему шагу."
       },
       "manage": {
-        "text1": "Поскольку вы являетесь владельцем, вы можете сейчас управлять именем.",
-        "text2": "Поскольку вы не являетесь владельцем, вы можете только просматривать данные об имени в менеджере.",
-        "title": "Поздравляем! Вы успешно внесли этот DNS домен в ENS реестр."
+        "text1": "Вы можете управлять именем, так как являетесь владельцем. ",
+        "text2": "Поскольку Вы не являетесь владельцем, Вы можете только просматривать данные о данном имени в менеджере.",
+        "title": "Поздравляем! Вы успешно внесли DNS домен в ENS реестр."
       },
       "proof": {
-        "text1": "Адрес в DNS текстовой записи является вашим адресом.",
-        "text2": "Если вы знаете, что являетесь владельцем этого домена, то добавьте к его TXT записи ваш Ethereum адрес и обновите эту страницу чтобы произвести проверку DNSSEC ещё раз.",
-        "title1": "Вы владелец этого адреса. Добавьте сейчас ваш домен к Реестру ENS.",
-        "title2": "Похоже, что вы не являетесь владельцем DNS этого домена, но любой человек может добавить этот домен в ENS Реестр."
+        "text1": "Адрес в текстовой записи DNS совпадает с Вашим адресом.",
+        "text2": "Если Вы являетесь владельцем этого домена, то добавьте к его текстовой записи ваш Ethereum адрес и обновите эту страницу, чтобы произвести проверку DNSSEC ещё раз.",
+        "title1": "Вы владелец этого адреса. Добавьте Ваш домен к Реестру ENS.",
+        "title2": "Похоже, что Вы не являетесь владельцем DNS этого домена, но можете добавить этот домен в ENS Реестр."
       }
     },
     "viewinmanager": "Просмотреть в Менеджере"
   },
   "expiryNotification": {
     "placeholder": "Введите email адрес",
-    "reminder": "Напомнить мне"
+    "reminder": "Напомнить"
   },
   "favourites": {
     "favouriteTitle": "Избранное",
@@ -122,7 +122,7 @@
     },
     "nofavouritesSubdomains": {
       "text": "Чтобы добавить имена в Избранное, нажмите на иконку 'сердца' возле желаемого имени.",
-      "title": "No Subdomains have been saved."
+      "title": "Поддомены не были сохранены."
     },
     "subdomainFavouriteTitle": "Избранные Поддомены"
   },
@@ -130,7 +130,7 @@
     "announcements": {
     },
     "howtouse": {
-      "body": "Приложение ENS App является графическим интерфейсом пользователя для обычных пользователей. Оно позволяет вам найти любое имя, управлять его адресом или тем, куда он направляет и создавать поддомены для каждого из имён.",
+      "body": "ENS App – графический интерфейс для обычных пользователей, не требующий глубоких технических познаний. Он позволяет Вам найти любое имя, управлять его адресом или тем, куда он направляет и создавать поддомены для любого имени.",
       "title": "Как пользоваться ENS"
     },
     "whatisens": {
@@ -140,15 +140,15 @@
   },
   "howtouse": {
     "favourite": {
-      "text": "Следите за доменами и поддоменами, которыми вы владеете или за которыми ходите наблюдать.",
-      "title": "Сохранить избранные имена"
+      "text": "Следите за доменами и поддоменами, которыми владеете или за которыми ходите наблюдать.",
+      "title": "Добавить имена в избранные"
     },
     "manage": {
       "text": "Направляйте домены к вашему ethereum адресу, передавайте владение доменом другим людям и многое другое.",
       "title": "Управлять именами"
     },
     "register": {
-      "text": "Зарегистрируйте имя .eth за $5/год. Продляйте или отмените регистрацию в любое время.",
+      "text": "Зарегистрируйте имя .eth за $5/год с возможностью продления. Вы можете отменить подписку в любое время.",
       "title": "Зарегистрировать имена"
     },
     "search": {
@@ -157,26 +157,26 @@
     }
   },
   "linegraph": {
-    "daysRemaining": "{{daysRemaining}} (out of {{totalDays}}) days remaining",
-    "endPrice": "End price",
-    "startingPrice": "Starting price",
-    "title": "Buy now for {{premiumInEth}}"
+    "daysRemaining": "{{daysRemaining}} (out of {{totalDays}}) дней осталось",
+    "endPrice": "Конечная цена",
+    "startingPrice": "Начальная цена",
+    "title": "Приобрести сейчас за {{premiumInEth}}"
   },
   "pendingTx": {
     "text": "TX в ожидании"
   },
   "pricer": {
-    "gasDescription": "Estimated Gas Price (Step 1 + Step 3). The gas price will flucuate.",
-    "pricePerAmount": "Price per amount of time selected",
+    "gasDescription": "Расчетная цена газа (Для шага 1 и 3). Цена на газ может меняться.",
+    "pricePerAmount": "Цена за выбранный отрезок времени",
     "registrationPeriodLabel": "Срок регистрации",
-    "registrationPriceLabel": "Registration price to pay",
-    "totalDescription": "Estimated Total (Price + Gas). The gas price is based at {{gasPriceToGweiFast}} Gwei",
-    "totalPriceLabel": "Общие сумма к оплате",
+    "registrationPriceLabel": "Стоимость регистрации",
+    "totalDescription": "Расчетная итоговая сумма (Цена + Газ). Цена на газ рассчитана в {{gasPriceToGweiFast}} Gwei",
+    "totalPriceLabel": "Общая сумма к оплате",
     "yearUnit": "год"
   },
   "register": {
     "buttons": {
-      "insufficient": "Insufficient balance on your wallet. Fill in your wallet and reload the page.",
+      "insufficient": "Недостаточно средств на Вашем кошельке. Пополните баланс и перезагрузите страницу.",
       "manage": "Управлять",
       "register": "Зарегистрировать",
       "request": "Запрос на регистрацию",
@@ -184,25 +184,25 @@
       "warning": "Нажмите 'зарегистрировать' чтобы перейти 3-му шагу."
     },
     "favourite": "Добавьте имя в 'Избранное' для быстрого доступа в случае если вы закроете браузер.",
-    "increaseRegistrationPeriod": "Increase registration period to avoid paying gas every year",
+    "increaseRegistrationPeriod": "Увеличьте регистрационный период, чтобы не платить за газ каждый год.",
     "notifications": {
       "ready": "Готово к регистрации"
     },
     "notify": "Сообщить мне",
     "premium": {
-      "dateDescription": "Date and time shown in local time zone",
-      "invalid": "Any number over 2k is invalid",
+      "dateDescription": "Дата и время указаны в местной временной зоне",
+      "invalid": "Любое число больше 2000 недействительно",
       "title": "Premium"
     },
     "premiumWarning": {
-      "description": "To ensure everyone has a fair opportunity to register a newly expired name, these names have a premium that starts at $100,000 and reduces over 28 days until the premium is gone. Enter the amount you're willing to pay as a premium to learn which date to revisit the app to register the name.",
-      "exponentialWarningDescripiton": "To ensure everyone has a fair opportunity to register a newly expired name, these names have a premium that starts at $100,000,000 and reduces over 21 days exponentially until the premium is gone. Enter the amount you're willing to pay as a premium to learn which date to revisit the app to register the name.",
-      "title": "This name has a temporary premium."
+      "description": "Чтобы у всех были равные возможности зарегистрировать новое имя, срок действия которого истёк накануне, для таких имён предусмотрена наценка размером минимум в 100 тысяч долларов. Наценка уменьшается ежедневно в течении 28 дней. Укажите сумму, которую Вы готовы внести в качестве наценки, и мы сообщим Вам, когда появится возможность его приобрести.",
+      "exponentialWarningDescripiton": "Чтобы у всех были равные возможности зарегистрировать новое имя, срок действия которого истёк накануне, для таких имён предусмотрена наценка размером минимум в 100 миллионов долларов. Наценка уменьшается ежедневно экспоненционально в течении 21 дня. Укажите сумму, которую Вы готовы внести в качестве наценки, и мы сообщим Вам, когда появится возможность его приобрести.",
+      "title": "На это имя временно установлена наценка."
     },
     "step1": {
       "label": "Шаг 1",
-      "text": "Ваш кошелёк откроется и вас попросят подтвердить первые две транзакции, необходимые для регистрации.",
-      "text2": "If the second transaction is not processed within 7 days of the first, you will need to start again from step 1.",
+      "text": "Сейчас откроется Ваш кошелёк. Вам будет необходимо подтвердить первые две транзакции, чтобы занять имя.",
+      "text2": "Если вторая транзакция не будет обработана в течении 7 дней, Вам будет необходимо вернуться к первому шагу.",
       "title": "Запрос на регистрацию"
     },
     "step2": {
